@@ -1,3 +1,13 @@
-/* body {
-  background-color: blue;
-} */
+body {
+  background-image: url(https://openclipart.org/image/2400px/svg_to_png/304969/1534027506.png);
+}
+
+#main-entry {
+  width: 65%;
+}
+
+#chapters-list p {
+  font-size: 50px;
+  font-family: courier;
+  margin: 20px 50%;
+}
