@@ -1,10 +1,14 @@
 //buisness logic
-
+var username = "";
+var trait1 = ""
 //UI logic
 $(document).ready(function() {
-  $("#enter-btn").submit( function(event) {
+  $("#start-form").submit( function(event) {
     event.preventDefault();
-    console.log("hi")
-    window.location.href="./chapter1.html";
+    username = $("#username").val();
+    trait1 = $("#alignment").val();
+
+    //directs to chapter 1
+    username && trait1 ? document.location.href="chapter1.html" : alert("Did you enter a name and thing?");
   });
 });
